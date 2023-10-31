@@ -1,0 +1,18 @@
+Script started on Mon 30 Oct 2023 10:12:20 PM EDT
+[(ea-cisc372-silber:jsmtaing)@login01.darwin CISC372_picProject]$ ./pt_image
+Usage: image <filename> <type>
+        where type is one of (edge,sharpen,blur,gauss,emboss,identity)
+[(ea-cisc372-silber:jsmtaing)@login01.darwin CISC372_picProject]$ ./pt_image pic1.jpg sharpen
+Starting p-threads...
+Process took 0 seconds
+Saving image now...
+Save image --Done
+[(ea-cisc372-silber:jsmtaing)@login01.darwin CISC372_picProject]$ ./omp_image pic1.jpg sharpen
+Starting omp process...
+Process Took 0 seconds
+Saving image now...
+Saved image --Done
+[(ea-cisc372-silber:jsmtaing)@login01.darwin CISC372_picProject]$ exit
+exit
+
+Script done on Mon 30 Oct 2023 10:12:56 PM EDT
